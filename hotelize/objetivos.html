@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação Sistêmica Hotelize</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #333, #555);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        h1 {
+            margin: 0;
+            padding: 0;
+            font-size: 28px;
+            font-weight: bold;
+            letter-spacing: 1.2px;
+        }
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+        .nav-buttons a {
+            background: #555;
+            color: #fff;
+            text-decoration: none;
+            padding: 12px 25px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+            transition: background 0.3s, transform 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .nav-buttons a:hover {
+            background: #777;
+            transform: translateY(-3px);
+        }
+        .container {
+            width: 85%;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center; 
+        }
+        .content {
+            text-align: left; 
+            max-width: 800px; 
+            margin: 0 auto; 
+        }
+        .content h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #555; 
+            padding-bottom: 10px;
+        }
+        .content ul {
+            list-style: disc; 
+            padding-left: 20px; 
+        }
+        .content li {
+            margin-bottom: 10px; 
+            font-size: 18px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+        }
+        footer p {
+            margin: 0;
+        }
+       
+        @media (max-width: 768px) {
+            .nav-buttons {
+                flex-direction: column;
+            }
+            .nav-buttons a {
+                margin: 10px 0;
+            }
+            header img {
+                width: 90px;
+                height: 70px;
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 24px;
+            }
+            .nav-buttons a {
+                font-size: 14px;
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Documentação Sistêmica do Sistema Hotelize</h1>
+        <div class="nav-buttons">
+            <a href="nome-sistema.html">Hotelize</a>
+            <a href="importancia-beneficios.html">Importância e Benefícios</a>
+            <a href="objetivos.html">Objetivos</a>
+            <a href="stakeholders.html">Stakeholders</a>
+            <a href="requisitos-funcionais.html">Requisitos Funcionais</a>
+            <a href="requisitos-nao-funcionais.html">Requisitos Não Funcionais</a>
+            <a href="prioridade.html">Prioridade dos Requisitos</a>
+            <a href="validacoes.html">Validações</a>
+            <a href="requisitos-impli-expli.html">Requisitos Implícitos e Explícitos</a>
+            <a href="prototipos.html">Protótipos</a>
+            <a href="diagramas-uml.html">Diagramas UML</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>Objetivos do Sistema</h2>
+            <ul>
+                <li>Facilitar reservas de quartos online.</li>
+                <li>Gerenciar a disponibilidade de quartos em tempo real.</li>
+                <li>Fornecer relatórios detalhados sobre ocupação e receita.</li>
+                <li>Interface e Usabilidade</li>
+                <li>Integração com Outros Sistemas</li>
+                <li>Relatórios e Análises</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sistema Hotelize. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
